@@ -1,0 +1,186 @@
+/**variables**/
+.nav {
+  list-style: linear;
+  padding: 0;
+  background-color: #E5E8E9;
+  width: 100%;
+  max-width: 100%;
+  margin: right; }
+
+.nav li a {
+  text-decoration: none;
+  color: #617F9E;
+  padding: 20px;
+  display: block; }
+
+.nav > li {
+  display: inline-block;
+  text-align: center; }
+
+.nav li a:hover {
+  background: #263747; }
+
+.contacto {
+  background-image: url(../imagenes/fondo_llavero.jpeg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  float: left;
+  position: absolute;
+  width: 85%;
+  height: 78%;
+  transform: scale(1, 1);
+  text-align: center;
+  margin-left: 100px; }
+
+form {
+  width: 450px;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 10px 20px;
+  box-sizing: border-box;
+  margin-top: 20px;
+  border-radius: 7px; }
+
+h2 {
+  color: #fff;
+  text-align: center;
+  margin: 0;
+  font-size: 30px;
+  margin-bottom: 20px; }
+
+input, textarea {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 7px;
+  box-sizing: border-box; }
+
+textarea {
+  min-height: 100px;
+  max-height: 200px;
+  max-width: 100%; }
+
+#boton {
+  background-color: #617F9E;
+  color: #E5E8E9;
+  padding: 20px; }
+
+#boton:hover {
+  cursor: pointer; }
+
+.servicios {
+  display: flex; }
+  .servicios .servicios__parrafo {
+    font-size: 1.2rem;
+    width: 45%;
+    margin-left: 100px;
+    height: auto;
+    float: left; }
+  .servicios .servicios__video {
+    width: 100%;
+    justify-content: center;
+    position: static;
+    height: auto;
+    float: left; }
+    .servicios .servicios__video video {
+      width: 100%; }
+
+.galeria {
+  width: 90%;
+  margin: auto;
+  list-style: none;
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+
+.carousel-inner img {
+  width: 500px;
+  height: 500px; }
+
+.otsukare {
+  display: flex; }
+
+.otsukare__parrafo {
+  font-size: 1.2rem;
+  width: 45%;
+  margin-left: 100px;
+  height: auto;
+  float: left; }
+
+.otsukare-izquierda {
+  width: 400px;
+  justify-content: center;
+  position: static;
+  height: auto;
+  float: left; }
+
+.inicio {
+  background-image: url(../imagenes/posavasos.jpeg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  float: left;
+  position: absolute;
+  width: 85%;
+  height: 78%;
+  transform: scale(1, 1);
+  text-align: center;
+  margin-left: 100px; }
+
+.inicio__presentacion {
+  font-size: 50px;
+  color: #E5E8E9;
+  line-height: 2;
+  font-family: 'Quicksand', sans-serif; }
+
+.redes {
+  font-size: 30px;
+  color: #E5E8E9;
+  font-family: 'Quicksand', sans-serif; }
+
+/**
+  .inicio:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+  
+  **/
+goo body {
+  background-color: #E5E8E9;
+  font-family: 'Quicksand', sans-serif; }
+
+.titulo {
+  color: #617F9E;
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  text-decoration: solid; }
+
+p {
+  color: #617F9E; }
+
+div {
+  color: #617F9E;
+  font-family: 'Quicksand', sans-serif; }
+
+h2 {
+  font-family: 'Quicksand', sans-serif; }
+
+H3 {
+  align-content: center;
+  text-align: center;
+  color: #E5E8E9;
+  text-decoration: solid; }
+
+footer {
+  position: fixed;
+  left: 10px;
+  bottom: 0px;
+  height: 50px;
+  width: 100%; }

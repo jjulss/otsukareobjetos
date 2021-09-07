@@ -1,0 +1,55 @@
+/**variables**/
+$fondo-claro: #E5E8E9;
+$textoAzul: #617F9E;
+
+@import "menu";
+@import "contacto";
+@import "servicios";
+@import "galeria";
+@import "otsukare";
+@import "inicio";
+
+
+goo body {
+  background-color: $fondo-claro;
+  font-family: 'Quicksand', sans-serif;
+
+}
+
+.titulo {
+
+  color: $textoAzul;
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  text-decoration: solid;;
+}
+
+p {
+  color: $textoAzul;
+ 
+}
+
+div {
+  color: $textoAzul;
+  font-family: 'Quicksand', sans-serif;
+}
+
+h2 {
+  font-family: 'Quicksand', sans-serif;
+}
+
+
+H3 {
+  align-content: center;
+  text-align: center;
+  color: $fondo-claro;
+  text-decoration: solid;
+}
+
+footer {
+  position: fixed;
+  left: 10px;
+  bottom: 0px;
+  height: 50px;
+  width: 100%;
+}

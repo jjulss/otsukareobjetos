@@ -1,0 +1,39 @@
+.inicio {
+
+    background-image: url(../imagenes/posavasos.jpeg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  
+    float: left;
+    position: absolute;
+    width: 85%;
+    height: 78%;
+    transform: scale(1, 1);
+    text-align: center;
+   margin-left: 100px;
+  }
+
+.inicio__presentacion {
+  font-size: 50px;
+  color: $fondo-claro;
+  line-height: 2;
+  font-family: 'Quicksand', sans-serif;
+}
+.redes {
+  font-size: 30px;
+  color: $fondo-claro;
+  font-family: 'Quicksand', sans-serif;
+}
+  /**
+  .inicio:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+  
+  **/

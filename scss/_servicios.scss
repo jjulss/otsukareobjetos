@@ -1,0 +1,27 @@
+.servicios {
+  display: flex;
+  
+
+  .servicios__parrafo {
+    font-size: 1.2rem;
+    width: 45%;
+    margin-left: 100px;
+    height: auto;
+    float: left;
+
+  }
+
+  .servicios__video {
+    width: 100%;
+    justify-content: center;
+    position: static;
+
+  
+    height: auto;
+    float: left;
+
+    video {
+      width: 100%;
+    }
+  }
+}
